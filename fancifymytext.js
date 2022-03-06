@@ -20,6 +20,7 @@ window.onload = () => {
     document.querySelector("#boringBetty").addEventListener('change', e => {
         if(e.target.value) {
             textArea.style.fontWeight = ''
+            textArea.style.color = ''
         }
     })
 
